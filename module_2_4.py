@@ -9,6 +9,7 @@ for i in range(len(numbers)):
         for k in range(2,numbers[i]):
             if numbers[i] % k == 0:
                 flag = False
+                break
         if flag:
                 primes.append(numbers[i])
         else:
